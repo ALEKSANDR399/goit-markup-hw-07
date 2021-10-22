@@ -7,3 +7,10 @@
   --link-hover-color: #2196f3;
   --button-bgc: #f5f4fa;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  background-color: var(--basic-color);
+  color: var(--basic-text-color);
+}
