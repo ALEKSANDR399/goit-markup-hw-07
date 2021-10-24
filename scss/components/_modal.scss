@@ -19,20 +19,21 @@
   border-radius: 4px;
   position: relative;
   padding: 40px;
-  .btn-close {
-    background: #ffffff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    right: 8px;
-    top: 8px;
-    cursor: pointer;
-  }
+}
+
+.modal_btn-close {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  cursor: pointer;
 }
 
 .backdrop.is-hidden {
@@ -41,7 +42,7 @@
   pointer-events: none;
 }
 
-.icon-close {
+.modal_icon-close {
   width: 11px;
   height: 11px;
   transform: scale(1.5);
@@ -51,7 +52,7 @@
   }
 }
 
-.modal-title {
+.modal_title {
   font-weight: bold;
   font-size: 20px;
   line-height: calc(23 / 20);
@@ -60,7 +61,7 @@
   margin-bottom: 12px;
 }
 
-.modal-area {
+.form_modal-area {
   margin-bottom: 10px;
 }
 
@@ -68,8 +69,8 @@
   margin-bottom: 30px;
 }
 
-.name-title,
-.textarea-title {
+.modal-area_name-title,
+.modal-area_textarea-title {
   font-weight: normal;
   font-size: 12px;
   line-height: calc(14 / 12);
@@ -77,19 +78,12 @@
   color: var(--basic-text-color);
 }
 
-.agreement-checkbox {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  color: var(--basic-text-color);
-}
-
-.form-tools {
+.modal-area_form-tools {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  .modal-input {
+  .modal-area_input {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -101,28 +95,28 @@
     &:focus {
       border-color: var(--link-hover-color);
     }
-    &:focus + .modal-username {
+    &:focus + .modal-area_username {
       fill: var(--link-hover-color);
     }
-    &:focus + .modal-usertel {
+    &:focus + .modal-area_usertel {
       fill: var(--link-hover-color);
     }
-    &:focus + .modal-useremail {
+    &:focus + .modal-area_useremail {
       fill: var(--link-hover-color);
     }
   }
 }
 
-.modal-username,
-.modal-usertel,
-.modal-useremail {
+.modal-area_username,
+.modal-area_usertel,
+.modal-area_useremail {
   position: absolute;
   left: 12px;
   width: 18px;
   height: 18px;
 }
 
-.modal-textarea-input {
+.modal-textarea_input {
   width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -153,11 +147,11 @@
   }
 }
 
-.input-agreement {
+.form_input-agreement {
   border-color: var(--secondary-text-color);
 }
 
-.agreement-checkbox {
+.form_label-agreement {
   font-weight: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -167,7 +161,14 @@
   align-items: baseline;
 }
 
-.agreement-checkbox span {
+.form_label-agreement {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: var(--basic-text-color);
+}
+
+.form_label-agreement span {
   width: 16px;
   height: 15px;
   border: 2px solid black;
@@ -177,23 +178,23 @@
   align-items: center;
   justify-content: center;
   margin-left: 14px;
-  .input-agreement:checked + & {
+  .form_input-agreement:checked + & {
     background-color: var(--link-hover-color);
     border: none;
   }
 }
 
-.icon-agreement {
+.agreement-check_icon {
   width: 11px;
   height: 8px;
 }
 
-.agreement-link {
+.agreement-check_link {
   color: var(--link-hover-color);
   margin-left: 5px;
 }
 
-.button-agreement-modal {
+.form_button-send {
   width: 200px;
   height: 50px;
   background: #2196f3;

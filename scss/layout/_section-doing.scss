@@ -1,9 +1,9 @@
-.doing {
+.section-doing {
   padding-bottom: 94px;
   padding-top: 94px;
 }
 
-.doing-title {
+.section-doing_title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -15,14 +15,14 @@
 .doing-list {
   display: flex;
   padding-left: 0px;
-  .doing-item:not(:nth-last-child(n + 3)) {
+  .doing-list_item:not(:nth-last-child(n + 3)) {
     margin-left: 30px;
   }
 }
 
-.doing-wrapper {
+.doing-list_wrapper {
   position: relative;
-  .doing-text {
+  .doing-list_text {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;

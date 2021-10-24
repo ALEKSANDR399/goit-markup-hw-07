@@ -4,37 +4,37 @@
   padding-bottom: 60px;
 }
 
-.footer-logo {
-  margin-bottom: 20px;
-}
-
 .footer-container {
   display: flex;
   align-items: baseline;
 }
 
-.footer-link {
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.bottom-logo_link {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   color: var(--link-hover-color);
-  & > .footer-logo--style {
+  & > .bottom-logo_color-style {
     color: var(--basic-color);
   }
 }
 
-.footer-list {
+.adress-list {
   font-style: normal;
   padding-left: 0px;
   display: flex;
   flex-direction: column;
-  .footer-contacts:not(:last-child) {
+  .adress-list_contacts-item:not(:last-child) {
     margin-bottom: 9px;
   }
 }
 
-.footer-place {
+.adress-list_place-link {
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
@@ -43,8 +43,7 @@
   color: var(--basic-color);
 }
 
-.footer-mail,
-.footer-tel {
+.adress-list_link {
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;

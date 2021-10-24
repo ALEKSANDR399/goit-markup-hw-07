@@ -16,29 +16,29 @@
 <body class="page">
     <header class="header header-portfolio">
         <div class="container header-container">
-            <div>
-                <a href="" class="logo">Web<span class="logo--style">Studio</span></a>
+            <div class="header-logo">
+                <a href="" class="header-logo_link">Web<span class="header-logo_color-style">Studio</span></a>
             </div>
             <nav class="header-nav nav">
                 <!--Меню навигации-->
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="index.html" class=" nav-link link">Студия</a></li>
-                    <li class="nav-item"><a href="" class=" nav-link link current">Портфолио</a></li>
-                    <li class="nav-item"><a href="" class=" nav-link link ">Контакты</a></li>
+                <ul class="nav_list block-nav">
+                    <li class="block-nav_item"><a href="index.html" class=" block-nav_link link">Студия</a></li>
+                    <li class="block-nav_item"><a href="" class=" block-nav_link link current">Портфолио</a></li>
+                    <li class="block-nav_item"><a href="" class=" block-nav_link link ">Контакты</a></li>
                 </ul>
             </nav>
             <!--Контакты-->
-            <ul class="contacts-list">
-                <li class="contacts-mail-item">
-                    <a href="mailto:info@devstudio.com" class="contacts-mail link">
-                        <svg class="contacts-mail-logo">
+            <ul class="header-contacts contacts-list">
+                <li class="contacts-list_mail-item">
+                    <a href="mailto:info@devstudio.com" class="contacts-list_mail-link link">
+                        <svg class="contacts-list_mail-logo">
                             <use href="./img/sprite.svg#icon-envelope" width="16" height="12">
                             </use>
                         </svg>
                         info@devstudio.com</a>
                 </li>
-                <li class="contacts-tel-item"><a href="tel:+380961111111" class="contacts-tels link">
-                        <svg class="contacts-tel-logo">
+                <li class="contacts-list_tel-item"><a href="tel:+380961111111" class="contacts-list_tel-link link">
+                        <svg class="contacts-list_tel-logo">
                             <use href="./img/sprite.svg#icon-phone" width="10" height="16"></use>
                         </svg>
                         +380961111111</a></li>
@@ -48,146 +48,145 @@
     <main>
         <section class="portfolio">
             <div class="container">
-                <ul class="portfolio-list">
-                    <li class="portfolio-item"><button class="portfolio-btn btn" type="button">Все</button></li>
-                    <li class="portfolio-item"><button class="portfolio-btn btn" type="button">Веб-сайты</button></li>
-                    <li class="portfolio-item"><button class="portfolio-btn btn" type="button">Приложения</button></li>
-                    <li class="portfolio-item"><button class="portfolio-btn btn" type="button">Дизайн</button></li>
-                    <li class="portfolio-item"><button class="portfolio-btn btn" type="button">Маркетинг</button></li>
+                <ul class="portfolio-list btn-list">
+                    <li class="btn-list_item"><button class="btn-list_button btn" type="button">Все</button></li>
+                    <li class="btn-list_item"><button class="btn-list_button btn" type="button">Веб-сайты</button></li>
+                    <li class="btn-list_item"><button class="btn-list_button btn" type="button">Приложения</button></li>
+                    <li class="btn-list_item"><button class="btn-list_button btn" type="button">Дизайн</button></li>
+                    <li class="btn-list_item"><button class="btn-list_button btn" type="button">Маркетинг</button></li>
                 </ul>
-                <div class="portfolio-scroll container-scroll scrooll"></div>
-                    <ul class="scroll-list">
-                        <li class="scroll-item"><a href="" class="scroll-link link">
-                                <div class="sroll-block wrapper">
+                <ul class="portfolio-list scroll-list">
+                        <li class="scroll-list_item"><a href="" class="scroll-list_link link">
+                                <div class="scroll-list_block wrapper">
                                     <img src="./img/portfolioimg1.jpg" alt="Технокряк" width="370" height="294">
-                                    <p class="wrapper-text">
+                                    <p class="wrapper_text">
                                         Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                                         шпионажа и атак на защищённые сервера конкурентов.
                                     </p>
                                 </div>
-                                <div class=" sroll-block description">
-                                    <h3 class="section-name">Технокряк</h3>
-                                    <p class="section-item">Веб-сайт</p>
+                                <div class="scroll-list_block description">
+                                    <h3 class="description_name">Технокряк</h3>
+                                    <p class="description_item">Веб-сайт</p>
                                 </div>
                             </a>
                         </li>
-                        <li class="scroll-item"><a href="" class="scroll-link link">
-                                <div class="sroll-block wrapper">
+                        <li class="scroll-list_item"><a href="" class="scroll-list_link link">
+                                <div class="scroll-list_block wrapper">
                                     <img src="./img/portfolioimg2.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294">
-                                    <p class="wrapper-text">
+                                    <p class="wrapper_text">
                                         Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для
                                         цифрового
                                         шпионажа и атак на защищённые сервера конкурентов.
                                     </p>
                                 </div>
-                                <div class=" sroll-block description">
-                                    <h3 class="section-name">Постер New Orlean vs Golden</h3>
-                                    <p class="section-item">Дизайн</p>
+                                <div class=" scroll-list_block description">
+                                    <h3 class="description_name">Постер New Orlean vs Golden</h3>
+                                    <p class="description_item">Дизайн</p>
                                 </div>
                             </a>
                         </li>
-                        <li class="scroll-item"><a href="" class="scroll-link link">
-                                <div class="sroll-block wrapper">
+                        <li class="scroll-list_item"><a href="" class="scroll-list_link link">
+                                <div class="scroll-list_block wrapper">
                                     <img src="./img/portfolioimg3.jpg" alt="Ресторан Seafood" width="370" height="294">
-                                    <p class="wrapper-text">
+                                    <p class="wrapper_text">
                                         Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для
                                         цифрового
                                         шпионажа и атак на защищённые сервера конкурентов.
                                     </p>
                                 </div>
-                                <div class=" sroll-block description">
-                                    <h3 class="section-name">Ресторан Seafood</h3>
-                                    <p class="section-item">Приложение</p>
+                                <div class=" scroll-list_block description">
+                                    <h3 class="description_name">Ресторан Seafood</h3>
+                                    <p class="description_item">Приложение</p>
                                 </div>
                             </a>
                         </li>
-                        <li class="scroll-item"><a href="" class="scroll-link link">
-                                <div class="sroll-block wrapper">
+                        <li class="scroll-list_item"><a href="" class="scroll-list_link link">
+                                <div class="scroll-list_block wrapper">
                                     <img src="./img/portfolioimg4.jpg" alt="Проект Prime" width="370" height="294">
-                                    <p class="wrapper-text">
+                                    <p class="wrapper_text">
                                         Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для
                                         цифрового
                                         шпионажа и атак на защищённые сервера конкурентов.
                                     </p>
                                 </div>
-                                <div class=" sroll-block description">
-                                    <h3 class="section-name">Проект Prime</h3>
-                                    <p class="section-item">Маркетинг</p>
+                                <div class=" scroll-list_block description">
+                                    <h3 class="description_name">Проект Prime</h3>
+                                    <p class="description-item">Маркетинг</p>
                                 </div>
                             </a>
                         </li>
-                        <li class="scroll-item"><a href="" class="scroll-link link">
-                                <div class="sroll-block wrapper">
+                        <li class="scroll-list_item"><a href="" class="scroll-list_link link">
+                                <div class="scroll-list_block wrapper">
                                     <img src="./img/portfolioimg5.jpg" alt="Проект Boxes" width="370" height="294">
-                                    <p class="wrapper-text">
+                                    <p class="wrapper_text">
                                         Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для
                                         цифрового
                                         шпионажа и атак на защищённые сервера конкурентов.
                                     </p>
                                 </div>
-                                <div class=" sroll-block description">
-                                    <h3 class="section-name">Проект Boxes</h3>
-                                    <p class="section-item">Приложение</p>
+                                <div class=" scroll-list_block description">
+                                    <h3 class="description_name">Проект Boxes</h3>
+                                    <p class="description_item">Приложение</p>
                                 </div>
                             </a>
                         </li>
-                        <li class="scroll-item"><a href="" class="scroll-link link">
-                                <div class="sroll-block wrapper">
+                        <li class="scroll-list_item"><a href="" class="scroll-list_link link">
+                                <div class="scroll-list_block wrapper">
                                     <img src="./img/portfolioimg6.jpg" alt="Inspiration has no Borders" width="370" height="294">
-                                    <p class="wrapper-text">
+                                    <p class="wrapper_text">
                                         Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для
                                         цифрового
                                         шпионажа и атак на защищённые сервера конкурентов.
                                     </p>
                                 </div>
-                                <div class=" sroll-block description">
-                                    <h3 class="section-name">Inspiration has no Borders</h3>
-                                    <p class="section-item">Веб-сайт</p>
+                                <div class=" scroll-list_block description">
+                                    <h3 class="description_name">Inspiration has no Borders</h3>
+                                    <p class="description_item">Веб-сайт</p>
                                 </div>
                             </a>
                         </li>
-                        <li class="scroll-item"><a href="" class="scroll-link link">
-                                <div class="sroll-block wrapper">
+                        <li class="scroll-list_item"><a href="" class="scroll-list_link link">
+                                <div class="scroll-list_block wrapper">
                                 <img src="./img/portfolioimg7.jpg" alt="Издание Limited Edition" width="370" height="294">
-                                    <p class="wrapper-text">
+                                    <p class="wrapper_text">
                                         Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для
                                         цифрового
                                         шпионажа и атак на защищённые сервера конкурентов.
                                     </p>
                                 </div>
-                                <div class=" sroll-block description">
-                                    <h3 class="section-name">Издание Limited Edition</h3>
-                                    <p class="section-item">Дизайн</p>
+                                <div class=" scroll-list_block description">
+                                    <h3 class="description_name">Издание Limited Edition</h3>
+                                    <p class="description_item">Дизайн</p>
                                 </div>
                             </a>
                         </li>
-                        <li class="scroll-item"><a href="" class="scroll-link link">
-                                <div class="sroll-block wrapper">
+                        <li class="scroll-list_item"><a href="" class="scroll-list_link link">
+                                <div class="scroll-list_block wrapper">
                                 <img src="./img/portfolioimg8.jpg" alt="Проект LAB" width="370" height="294">
-                                    <p class="wrapper-text">
+                                    <p class="wrapper_text">
                                         Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для
                                         цифрового
                                         шпионажа и атак на защищённые сервера конкурентов.
                                     </p>
                                 </div>
-                                <div class=" sroll-block description">
-                                    <h3 class="section-name">Проект LAB</h3>
-                                    <p class="section-item">Маркетинг</p>
+                                <div class=" scroll-list_block description">
+                                    <h3 class="description_name">Проект LAB</h3>
+                                    <p class="description_item">Маркетинг</p>
                                 </div>
                             </a>
                         </li>
-                        <li class="scroll-item"><a href="" class="scroll-link link">
-                                <div class="sroll-block wrapper">
+                        <li class="scroll-list_item"><a href="" class="scroll-list_link link">
+                                <div class="scroll-list_block wrapper">
                                     <img src="./img/portfolioimg9.jpg" alt="Growing Business" width="370" height="294">
-                                    <p class="wrapper-text">
+                                    <p class="wrapper_text">
                                         Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для
                                         цифрового
                                         шпионажа и атак на защищённые сервера конкурентов.
                                     </p>
                                 </div>
                                 <div class=" sroll-block description">
-                                    <h3 class="section-name">Growing Business</h3>
-                                    <p class="section-item">Приложение</p>
+                                    <h3 class="description_name">Growing Business</h3>
+                                    <p class="description_item">Приложение</p>
                                 </div>
                             </a>
                         </li>
@@ -199,73 +198,73 @@
     <footer class="footer">
         <div class="container footer-container">
             <div>
-                <div class="footer-logo">
-                    <a href="" class="footer-link  link">Web<span class="footer-logo--style">Studio</span></a>
+                <div class="footer-logo bottom-logo">
+                    <a href="" class="bottom-logo_link  link">Web<span class="bottom-logo_color-style">Studio</span></a>
                 </div>
                 <address class="address">
-                    <ul class="footer-list">
-                        <li class="footer-contacts"> <a href="https://goo.gl/maps/wmigcwDh6VgQxwut9"
-                                class="footer-place footer-link link"> г. Киев, пр-т Леси
+                    <ul class="adress-list">
+                        <li class="adress-list_contacts-item"> <a href="https://goo.gl/maps/wmigcwDh6VgQxwut9"
+                                class="adress-list_place-link footer-link link"> г. Киев, пр-т Леси
                                 Украинки, 26</a></li>
-                        <li class="footer-contacts"><a href="mailto:info@example.com"
-                                class="footer-mail footer-link link">info@example.com</a></li>
-                        <li class="footer-contacts"><a href="tel:+380961111111" class="footer-tel footer-link link">+38 096
-                                111 11
+                        <li class="adress-list_contacts-item"><a href="mailto:info@example.com"
+                                class="adress-list_link footer-link link">info@example.com</a></li>
+                        <li class="adress-list_contacts-item"><a href="tel:+380961111111"
+                                class="adress-list_link footer-link link">+38 096 111 11
                                 11</a></li>
                     </ul>
                 </address>
             </div>
-            <div class="footer-social socialblock">
-                <div class="socialblock-title">
-                <h4>ПРИСОЕДЕНЯЙТЕСЬ</h4>
+            <div class="footer-social social-block">
+                <div class="social-block_title">
+                    <h4>ПРИСОЕДЕНЯЙТЕСЬ</h4>
                 </div>
-                <ul class="socialblock-list personallist list">
-                <li class="personallist-item ">
-                    <a href="" class="personallist-link link">
-                        <svg class="personallist-icons">
-                            <use href="./img/sprite.svg#icon-instagram" width="20" height="20">
-                            </use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="personallist-item ">
-                    <a href="" class="personallist-link link">
-                        <svg class="personallist-icons">
-                            <use href="./img/sprite.svg#icon-Group" width="20" height="20">
-                            </use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="personallist-item ">
-                    <a href="" class="personallist-link link">
-                        <svg class="personallist-icons">
-                            <use href="./img/sprite.svg#icon-faecbook" width="20" height="20">
-                            </use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="personallist-item ">
-                    <a href="" class="personallist-link link">
-                        <svg class="personallist-icons">
-                            <use href="./img/sprite.svg#icon-linkedin" width="20" height="20">
-                            </use>
-                        </svg>
-                    </a>
-                </li>
+                <ul class="social-block_list personal-list list">
+                    <li class="personal-list_item ">
+                        <a href="" class="personal-list_link link">
+                            <svg class="personal-list_icons">
+                                <use href="./img/sprite.svg#icon-instagram" width="20" height="20">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="personal-list_item ">
+                        <a href="" class="personal-list_link link">
+                            <svg class="personal-list_icons">
+                                <use href="./img/sprite.svg#icon-Group" width="20" height="20">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="personal-list_item ">
+                        <a href="" class="personal-list_link link">
+                            <svg class="personal-list_icons">
+                                <use href="./img/sprite.svg#icon-faecbook" width="20" height="20">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="personal-list_item ">
+                        <a href="" class="personal-list_link link">
+                            <svg class="personal-list_icons">
+                                <use href="./img/sprite.svg#icon-linkedin" width="20" height="20">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
             </div>
-            <div class="subscribe">
-                <div class="subscribe-title">
+            <div class="footer_subscribe subscribe">
+                <div class="subscribe_title">
                     <h4>ПОДПИШИСЬ НА РАССЫЛКУ</h4>
                 </div>
-                <form action="#" class="subscribe-form form">
-                    <div class="form-email">
-                        <label class="form-label" for="email-input"></label>
-                        <input type="email" name="email" placeholder="E-mail" class="form-input" id="email-input" />
+                <form action="#" class="subscribe_form form">
+                    <div class="form_email">
+                        <label class="form_label" for="email-input"></label>
+                        <input type="email" name="email" placeholder="E-mail" class="form_input" id="email-input" />
                     </div>
-                    <div class="form-button clik">
-                        <button type="submit" class="clik-button">Подписаться
-                            <svg class="clik-icons">
+                    <div class="form_button clik">
+                        <button type="submit" class="clik_button">Подписаться
+                            <svg class="clik_icons">
                                 <use href="./img/icons.svg#icon-telegram" width="24" height="24">
                                 </use>
                             </svg>

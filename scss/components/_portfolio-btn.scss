@@ -1,13 +1,13 @@
-.portfolio-list {
+.btn-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  .portfolio-item:not(:last-child) {
+  .btn-list_item:not(:last-child) {
     margin-right: 8px;
   }
 }
 
-.portfolio-btn {
+.btn-list_button {
   display: flex;
   align-items: center;
   text-align: center;

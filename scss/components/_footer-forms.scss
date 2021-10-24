@@ -1,19 +1,19 @@
 .subscribe {
   margin-left: 93px;
-  .subscribe-title {
+  .subscribe_title {
     color: var(--basic-color);
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
     margin-bottom: 20px;
   }
-  .subscribe-form {
+  .subscribe_form {
     background-color: var(--secondary-color);
     display: flex;
   }
 }
 
-.form-email {
+.form_email {
   width: 358px;
   height: 50px;
   display: flex;
@@ -23,7 +23,7 @@
   }
 }
 
-.form-input {
+.form_input {
   height: 50px;
   width: 358px;
   background-color: transparent;
@@ -48,11 +48,11 @@
   }
 }
 
-.form-button {
+.form_button {
   margin-left: 12px;
 }
 
-.clik-button {
+.clik_button {
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -79,7 +79,7 @@
   }
 }
 
-.clik-icons {
+.clik_icons {
   width: 24px;
   height: 24px;
   fill: var(--header-text-color);

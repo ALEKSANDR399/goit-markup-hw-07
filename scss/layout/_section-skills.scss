@@ -1,10 +1,10 @@
-.skills {
+.section-skills {
   padding-top: 94px;
 }
 
 .skills-list {
   display: flex;
-  .skills-item {
+  .skills-list_item {
     display: flex;
     flex-direction: column;
     &:not(:last-child) {
@@ -13,7 +13,7 @@
   }
 }
 
-.skills-icons-box {
+.skills-list_icons-box {
   width: 270px;
   height: 120px;
   background-color: #f5f4fa;
@@ -22,20 +22,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  .skills-icons {
+  .skills-list_icons {
     width: 70px;
     height: 70px;
   }
 }
 
-.skills-aftertitle {
+.skills-list_after-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   color: var(--secondary-text-color);
 }
 
-.skills-text {
+.skills-list_text {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
