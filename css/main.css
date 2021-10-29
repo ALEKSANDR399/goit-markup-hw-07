@@ -148,7 +148,7 @@ ul {
 
 .contacts-list {
   display: flex;
-  flex-wrap: wrap;
+  align-items: baseline;
 }
 
 .contacts-list__mail-item {
