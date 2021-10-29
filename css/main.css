@@ -148,7 +148,7 @@ ul {
 
 .contacts-list {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 .contacts-list__mail-item {
@@ -433,9 +433,9 @@ ul {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list_icon-link:hover .social-list__icons,
-.social-list_icon-link:focus .social-list__icons {
-  fill: var(--basic-color);
+.social-list__icon-link:hover .social-list__icons,
+.social-list__icon-link:focus .social-list__icons {
+  fill: #fff;
 }
 
 .section-partners {
